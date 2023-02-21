@@ -23,12 +23,14 @@
   },
   "autoload": {
     "psr-4": {
-      "Veem\\" : "lib/Veem"
+      "Veem\\" : "lib/Veem",
+      "Veem\\converters\\" : "lib/Veem/converters"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Veem\\": "lib/Veem"
+      "Veem\\": "lib/Veem",
+      "Veem\\converters\\" : "lib/Veem/converters"
     }
   },
   "require-dev": {
